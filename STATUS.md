@@ -1,7 +1,7 @@
 # Status
 
 > Live status of the lab. Maintained by 翎.
-> Last updated: **2026-06-12 13:40**.
+> Last updated: **2026-06-12 14:15**.
 > For the *plan* see [`docs/05-roadmap.md`](./docs/05-roadmap.md). For the *why* of each decision see [`DECISIONS.md`](./DECISIONS.md). This file is the **what is true right now**.
 
 ---
@@ -12,8 +12,7 @@
 |-------|-------|--------|
 | Infrastructure | LICENSE (MIT + CC BY 4.0 + rights-reserved), CITATION.cff, README, DECISIONS.md, 05-roadmap, STATUS (this file) | ✅ |
 | docs/ overview | 01-why, 02-architecture, 04-genre-adaptation | ✅ |
-| docs/03-methodology/ | agent-memory, agent-consistency, agent-character-tension, outline-evolution (skeleton) | ✅ |
-| docs/03-methodology/ | prose-evolution | 🚧 v0.2 |
+| docs/03-methodology/ | agent-memory, agent-consistency, agent-character-tension, outline-evolution, prose-evolution (skeletons) | ✅ |
 | examples/ landing | README | ✅ |
 | examples/workflow-template/4-agent-outline/ | SOUL-template, orchestration | ✅ |
 | examples/workflow-template/5-agent-review/ | README (placeholder) | 🚧 v0.2 |
@@ -64,6 +63,9 @@
 | 2026-06-12 13:00 | Cron iteration 12 heartbeat · no external changes · same status |
 | 2026-06-12 13:20 | Cron iteration 13 heartbeat · no external changes · same status |
 | 2026-06-12 13:40 | 康康 P0 batch: D10 ratified (03-psychological-character-study) · D14 delegated to 翎-澜 + 执白 silent-ratification by 2026-06-19 (mini-threads sent to both 执白 incarnations) · 烨 returned to v3 with 执白--鲛人 (portfolio passive) · cron 901913a4 stopped (康康: "从cron 你看进度自行调节") |
+| 2026-06-12 13:55 | **Initial commit pushed to GitHub** (`Cosyma/multi-agent-fiction-lab`, sha `346a3ef`). Local git config isolated from iFLYTEK; osxkeychain credential separated from work account. |
+| 2026-06-12 14:00 | README polish commit (`abaee3f`): ASCII workflow shape added · Coming line ratified · `distribution/linkedin-en.md` v0.5 draft seeded. |
+| 2026-06-12 14:15 | `docs/03-methodology/prose-evolution.md` skeleton added — methodology series now 5/5 complete (matches author's original 7-chapter intent: 1-memory / 2-consistency / 5-outline-evol / 6-prose-evol + bonus character-tension). |
 
 ## What this lab is asking the reader to do (per audience)
 
