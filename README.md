@@ -1,6 +1,8 @@
 # multi-agent-fiction-lab
 
-[![Status](https://img.shields.io/badge/status-active-brightgreen)](.) [![Genres](https://img.shields.io/badge/genres-1%20live-blue)](.) [![v0.1](https://img.shields.io/badge/version-0.1-orange)](.)
+[![Status](https://img.shields.io/badge/status-active-brightgreen)](.) [![Genres](https://img.shields.io/badge/genres-1%20live-blue)](.) [![v0.1](https://img.shields.io/badge/version-0.1-orange)](.) [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC%20BY%204.0-yellow)](./LICENSE)
+
+[![Last Commit](https://img.shields.io/github/last-commit/Cosyma/multi-agent-fiction-lab)](https://github.com/Cosyma/multi-agent-fiction-lab/commits/main) [![Commit Activity](https://img.shields.io/github/commit-activity/m/Cosyma/multi-agent-fiction-lab)](https://github.com/Cosyma/multi-agent-fiction-lab/commits/main) [![Stars](https://img.shields.io/github/stars/Cosyma/multi-agent-fiction-lab?style=social)](https://github.com/Cosyma/multi-agent-fiction-lab/stargazers)
 
 > A PM-driven lab for multi-agent collaborative long-form fiction.
 >
