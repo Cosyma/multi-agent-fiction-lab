@@ -6,6 +6,43 @@ Two agent teams + a shared input pattern + an orchestration loop. That's the who
 
 ## The two teams
 
+```mermaid
+flowchart LR
+    Author([👤 Author / PM])
+
+    subgraph Outline["4-Agent Outline Team"]
+        direction TB
+        D[diverger]
+        C[critic]
+        A[aesthete]
+        W[wuzhui · captain]
+        D -.R1.-> W
+        C -.R1+R2.-> W
+        A -.R1+R2 arbitration.-> W
+    end
+
+    subgraph Review["5-Agent Prose Review Team"]
+        direction TB
+        R[rhythm-check<br/>gate]
+        B[blocking-check]
+        V[voice-check]
+        F[forbidden-check]
+        RC[review-captain]
+        R --> B
+        R --> V
+        B --> F
+        V --> F
+        F --> RC
+    end
+
+    Author -- brief --> Outline
+    Outline -- ruling --> Author
+    Author -- draft --> Review
+    Review -- fix-list --> Author
+```
+
+> *(The diagram above renders natively on GitHub. ASCII fallback below for editors that don't render mermaid.)*
+
 ```
                     ┌──────────────────────────────────┐
                     │   AUTHOR (康康)                   │
