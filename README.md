@@ -7,7 +7,31 @@
 > Not a writing tool. A working methodology — designed, validated, and documented by someone who builds AI agent platforms by day and writes novels by night.
 
 **Live**: folklore-mystery genre, 2 novels (100k+ words combined)
-**Coming**: mystery (本格 / 社会派) + 1 genre TBD
+**Coming**: mystery (本格 / 社会派) + psychological-character-study
+
+## The workflow shape
+
+```
+              AUTHOR (you)
+              /         \
+           brief        draft
+             │           │
+             ▼           ▼
+       ┌──────────┐ ┌──────────┐
+       │ 4-AGENT  │ │ 5-AGENT  │
+       │ OUTLINE  │ │ PROSE    │
+       │  DEBATE  │ │  REVIEW  │
+       └────┬─────┘ └────┬─────┘
+            │            │
+         ruling      fix list
+            │            │
+            └─→ AUTHOR ←─┘
+                decides
+```
+
+Two cooperating agent teams. The author is the messenger and the final decider. **No autonomous runtime · everything is auditable markdown.**
+
+→ Full architecture in [`docs/02-architecture.md`](./docs/02-architecture.md)
 
 ---
 
