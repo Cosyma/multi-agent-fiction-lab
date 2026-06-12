@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this lab or its methodology, please cite it as below."
+title: "multi-agent-fiction-lab: A PM-driven lab for multi-agent collaborative fiction writing"
+abstract: >-
+  multi-agent-fiction-lab is a working methodology for AI-augmented
+  collaborative long-form fiction writing, designed from a Product Manager
+  perspective. It documents the architecture of two cooperating agent teams
+  (a 4-agent outline-discussion team and a 5-agent prose-review team), a
+  memory-as-workflow design pattern (curated input packages rather than
+  vector retrieval), and case studies of novel-length fiction produced
+  through this workflow. The lab is structured to serve three audiences
+  simultaneously — hiring managers (60s), multi-agent practitioners (10min),
+  and academic researchers (40min) — via a layered docs / examples / research
+  architecture.
+authors:
+  - family-names: "Kang"
+    given-names: "Lingyi"
+    affiliation: "iFLYTEK"
+date-released: "2026-06-12"
+version: "0.1"
+type: software
+keywords:
+  - multi-agent systems
+  - human-AI collaboration
+  - creative writing
+  - product management
+  - workflow design
+  - human-in-the-loop
+  - computational social science
+license: "MIT AND CC-BY-4.0"
+url: "https://github.com/TBD/multi-agent-fiction-lab"
+repository-code: "https://github.com/TBD/multi-agent-fiction-lab"
