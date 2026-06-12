@@ -1,7 +1,7 @@
 # Status
 
 > Live status of the lab. Maintained by 翎.
-> Last updated: **2026-06-12 14:45**.
+> Last updated: **2026-06-12 evening / session resume**.
 > For the *plan* see [`docs/05-roadmap.md`](./docs/05-roadmap.md). For the *why* of each decision see [`DECISIONS.md`](./DECISIONS.md). This file is the **what is true right now**.
 
 ---
@@ -14,7 +14,7 @@
 | docs/ overview | 01-why, 02-architecture, 04-genre-adaptation | ✅ |
 | docs/03-methodology/ | agent-memory, agent-consistency, agent-character-tension, outline-evolution, prose-evolution (skeletons) | ✅ |
 | examples/ landing | README | ✅ |
-| examples/workflow-template/4-agent-outline/ | SOUL-template, orchestration | ✅ |
+| examples/workflow-template/4-agent-outline/ | SOUL-template + orchestration + EVIDENCE-personality-4agent-r1 | ✅ |
 | examples/workflow-template/5-agent-review/ | SOUL-template + orchestration | ✅ |
 | examples/case-studies/01-folklore-mystery/ | case-鲛人蛇吻 (skeleton), case-旁证体 (skeleton + craft preview) | ✅ skeleton · text TBD v0.2 |
 | examples/case-studies/02-mystery/ | (empty placeholder) | 🚧 v0.4 |
@@ -68,6 +68,8 @@
 | 2026-06-12 14:15 | `docs/03-methodology/prose-evolution.md` skeleton added — methodology series now 5/5 complete (matches author's original 7-chapter intent: 1-memory / 2-consistency / 5-outline-evol / 6-prose-evol + bonus character-tension). |
 | 2026-06-12 14:30 | `distribution/zhihu-zh.md` draft pushed (commit `caf7769`); 5-agent-review template upgraded to v0.1 SOUL + orchestration (commit `115db53`), matching 4-agent-outline structure. |
 | 2026-06-12 14:45 | Maintenance: roadmap.md + STATUS.md synced with actual v0.1 progress. v0.1 now ships 5 methodology docs + 2 workflow-template directories + 2 case skeletons + distribution drafts (LinkedIn EN + 知乎 ZH) + DECISIONS.md + STATUS + LICENSE + CITATION. v0.2 reshuffled accordingly. |
+| 2026-06-12 15:00–17:00 | Six additional polish commits pushed: dynamic GitHub badges; case-studies 02-mystery + 03-psychological-character-study placeholder dirs; docs/03-methodology/agent-handoff.md (session-handoff design); CHANGELOG.md + CONTRIBUTING.md + mermaid architecture diagram. CI commit (5a5c633) blocked by fine-grained PAT missing 'workflow' scope during the day. |
+| 2026-06-12 evening | CI commit pushed successfully (PAT workflow scope confirmed; repo now at 11 commits remote). 澜 prepared sanitized 3-agent personality-evidence snippet at `~/ME/0-growup-lan/research-portfolio/snippets/personality-evidence-2026-06-12.md` and asked翎 to pull it into the lab. Pulled to `examples/workflow-template/4-agent-outline/EVIDENCE-personality-4agent-r1.md` as empirical support for D07 and agent-memory "Model selection as memory". |
 
 ## What this lab is asking the reader to do (per audience)
 
