@@ -33,8 +33,10 @@ This is why `research/` does not block v0.1 (per D15) — research-grade content
 | `docs/03-methodology/agent-memory.md` | ✅ |
 | `docs/03-methodology/agent-consistency.md` | ✅ |
 | `docs/03-methodology/agent-character-tension.md` | ✅ |
+| `docs/03-methodology/outline-evolution.md` (skeleton) | ✅ |
+| `docs/03-methodology/prose-evolution.md` (skeleton) | ✅ |
 | `examples/workflow-template/4-agent-outline/` (SOUL + orchestration) | ✅ |
-| `examples/workflow-template/5-agent-review/` (placeholder for v0.2) | ✅ |
+| `examples/workflow-template/5-agent-review/` (SOUL + orchestration) | ✅ |
 | `examples/case-studies/01-folklore-mystery/case-鲛人蛇吻.md` (skeleton + intent) | ✅ |
 | `examples/case-studies/01-folklore-mystery/case-旁证体.md` (skeleton + craft preview) | ✅ |
 | `LICENSE` (MIT + CC BY 4.0 + rights-reserved for source novels) | ✅ |
@@ -44,10 +46,10 @@ This is why `research/` does not block v0.1 (per D15) — research-grade content
 
 ### What v0.1 does NOT include (and why)
 
-- Full excerpt text in case studies — pending 执白 selection + 澜 pre-screen coordination
+- Full excerpt text in case studies — pending 执白 selection + 澜 pre-screen coordination + D14 silent-ratification
 - `复盘-旁证体.md` (craft methodology long-form) — pending 执白--旁证体 write-up
 - `research/` content — D15: portfolio first, research follows
-- 5-agent SOUL templates filled in — v0.2
+- Expanded methodology docs with case walkthroughs — v0.2 (current docs ship as skeletons)
 
 ## v0.2 — Practitioner-ready (target: 2026-07)
 
@@ -55,14 +57,13 @@ This is why `research/` does not block v0.1 (per D15) — research-grade content
 
 | Item | Why |
 |------|-----|
-| `examples/workflow-template/5-agent-review/SOUL-template.md` | The prose-review template was placeholder in v0.1; v0.2 fills it |
-| `examples/workflow-template/5-agent-review/orchestration.md` | Sequential flow with rhythm-as-gate logic |
-| `case-鲛人蛇吻.md` — full excerpt block (≤ 3,000 chars) transcribed | Practitioners need to see what "good" looks like |
+| `case-鲛人蛇吻.md` — full excerpt block (≤ 3,000 chars) transcribed | Practitioners need to see what "good" looks like (gated on D14 silent-ratification) |
 | `case-旁证体.md` — full excerpt + `复盘-旁证体.md` (craft methodology long-form) | Craft baseline made fully explicit |
 | `research/01-problem-statement.md` (skeleton) | Marks where `research/` will land |
 | `research/02-evaluation-metrics.md` (skeleton — 7 metrics: 3 system-level per 澜 + 4 content-level per 翎) | Metric definitions formalized |
-| `docs/03-methodology/outline-evolution.md` | How outlines iterate across review rounds |
-| `docs/03-methodology/prose-evolution.md` | How prose iterates from draft to final |
+| `docs/03-methodology/outline-evolution.md` — expand from skeleton with case walkthrough | How outlines iterate across review rounds |
+| `docs/03-methodology/prose-evolution.md` — expand from skeleton with case walkthrough | How prose iterates from draft to final |
+| `examples/workflow-template/5-agent-review/` — populate with case-walkthrough material | Make the v0.1 skeleton fully runnable end-to-end |
 
 ### v0.2 exit criterion
 

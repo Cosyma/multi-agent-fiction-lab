@@ -1,7 +1,7 @@
 # Status
 
 > Live status of the lab. Maintained by 翎.
-> Last updated: **2026-06-12 14:15**.
+> Last updated: **2026-06-12 14:45**.
 > For the *plan* see [`docs/05-roadmap.md`](./docs/05-roadmap.md). For the *why* of each decision see [`DECISIONS.md`](./DECISIONS.md). This file is the **what is true right now**.
 
 ---
@@ -15,7 +15,7 @@
 | docs/03-methodology/ | agent-memory, agent-consistency, agent-character-tension, outline-evolution, prose-evolution (skeletons) | ✅ |
 | examples/ landing | README | ✅ |
 | examples/workflow-template/4-agent-outline/ | SOUL-template, orchestration | ✅ |
-| examples/workflow-template/5-agent-review/ | README (placeholder) | 🚧 v0.2 |
+| examples/workflow-template/5-agent-review/ | SOUL-template + orchestration | ✅ |
 | examples/case-studies/01-folklore-mystery/ | case-鲛人蛇吻 (skeleton), case-旁证体 (skeleton + craft preview) | ✅ skeleton · text TBD v0.2 |
 | examples/case-studies/02-mystery/ | (empty placeholder) | 🚧 v0.4 |
 
@@ -66,6 +66,8 @@
 | 2026-06-12 13:55 | **Initial commit pushed to GitHub** (`Cosyma/multi-agent-fiction-lab`, sha `346a3ef`). Local git config isolated from iFLYTEK; osxkeychain credential separated from work account. |
 | 2026-06-12 14:00 | README polish commit (`abaee3f`): ASCII workflow shape added · Coming line ratified · `distribution/linkedin-en.md` v0.5 draft seeded. |
 | 2026-06-12 14:15 | `docs/03-methodology/prose-evolution.md` skeleton added — methodology series now 5/5 complete (matches author's original 7-chapter intent: 1-memory / 2-consistency / 5-outline-evol / 6-prose-evol + bonus character-tension). |
+| 2026-06-12 14:30 | `distribution/zhihu-zh.md` draft pushed (commit `caf7769`); 5-agent-review template upgraded to v0.1 SOUL + orchestration (commit `115db53`), matching 4-agent-outline structure. |
+| 2026-06-12 14:45 | Maintenance: roadmap.md + STATUS.md synced with actual v0.1 progress. v0.1 now ships 5 methodology docs + 2 workflow-template directories + 2 case skeletons + distribution drafts (LinkedIn EN + 知乎 ZH) + DECISIONS.md + STATUS + LICENSE + CITATION. v0.2 reshuffled accordingly. |
 
 ## What this lab is asking the reader to do (per audience)
 
