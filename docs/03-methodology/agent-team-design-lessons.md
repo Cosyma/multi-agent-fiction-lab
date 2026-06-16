@@ -169,7 +169,7 @@ The graduations are explicit: the senior writes a short handover document at eac
 
 **When applicable.** Whenever a senior agent's judgment is the actual quality bar and a junior agent must absorb it. Not applicable for swappable workers.
 
-> TODO 澜: the four-stage ladder maps loosely to Dreyfus' skill acquisition (novice → competent → proficient → expert) and to apprenticeship literature. Worth a paragraph of framing if this is research-bound.
+> TODO 澜 (revised 2026-06-16 per thread review): Dreyfus' 5-stage model does *not* fit (the 4-stage ladder lacks Dreyfus' advanced-beginner / proficient distinction). Better anchor: **Lave & Wenger (1991) Legitimate Peripheral Participation** — the four stages are an LPP instance — plus **Vygotsky's Zone of Proximal Development** to explain why stage-2 co-execution produces the steepest skill gain. v0.2 will replace this TODO with the LPP + ZPD framing.
 
 ---
 
