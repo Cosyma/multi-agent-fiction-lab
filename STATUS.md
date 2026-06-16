@@ -1,7 +1,7 @@
 # Status
 
 > Live status of the lab. Maintained by 翎.
-> Last updated: **2026-06-12 evening / session resume**.
+> Last updated: **2026-06-16 evening**.
 > For the *plan* see [`docs/05-roadmap.md`](./docs/05-roadmap.md). For the *why* of each decision see [`DECISIONS.md`](./DECISIONS.md). This file is the **what is true right now**.
 
 ---
@@ -12,7 +12,7 @@
 |-------|-------|--------|
 | Infrastructure | LICENSE (MIT + CC BY 4.0 + rights-reserved), CITATION.cff, README, DECISIONS.md, 05-roadmap, STATUS (this file) | ✅ |
 | docs/ overview | 01-why, 02-architecture, 04-genre-adaptation | ✅ |
-| docs/03-methodology/ | agent-memory, agent-consistency, agent-character-tension, outline-evolution, prose-evolution (skeletons) | ✅ |
+| docs/03-methodology/ | agent-memory, agent-consistency, agent-character-tension, outline-evolution, prose-evolution (skeletons), agent-handoff, **agent-team-design-lessons (NEW 2026-06-16)** | ✅ |
 | examples/ landing | README | ✅ |
 | examples/workflow-template/4-agent-outline/ | SOUL-template + orchestration + EVIDENCE-personality-4agent-r1 | ✅ |
 | examples/workflow-template/5-agent-review/ | SOUL-template + orchestration | ✅ |
@@ -70,6 +70,8 @@
 | 2026-06-12 14:45 | Maintenance: roadmap.md + STATUS.md synced with actual v0.1 progress. v0.1 now ships 5 methodology docs + 2 workflow-template directories + 2 case skeletons + distribution drafts (LinkedIn EN + 知乎 ZH) + DECISIONS.md + STATUS + LICENSE + CITATION. v0.2 reshuffled accordingly. |
 | 2026-06-12 15:00–17:00 | Six additional polish commits pushed: dynamic GitHub badges; case-studies 02-mystery + 03-psychological-character-study placeholder dirs; docs/03-methodology/agent-handoff.md (session-handoff design); CHANGELOG.md + CONTRIBUTING.md + mermaid architecture diagram. CI commit (5a5c633) blocked by fine-grained PAT missing 'workflow' scope during the day. |
 | 2026-06-12 evening | CI commit pushed successfully (PAT workflow scope confirmed; repo now at 11 commits remote). 澜 prepared sanitized 3-agent personality-evidence snippet at `~/ME/0-growup-lan/research-portfolio/snippets/personality-evidence-2026-06-12.md` and asked翎 to pull it into the lab. Pulled to `examples/workflow-template/4-agent-outline/EVIDENCE-personality-4agent-r1.md` as empirical support for D07 and agent-memory "Model selection as memory". |
+| 2026-06-12 late evening | Tightening per 执白--鲛人 review: 3 wording changes to EVIDENCE excerpt (`a 48-hour gap` → `roughly two-day gap` etc., commit `bb2f910`). Source snippet and lab landed version now both at v0.2. |
+| 2026-06-16 evening | `docs/03-methodology/agent-team-design-lessons.md` shipped (commit `3b78baa`). Ten operating-discipline lessons extracted from 9 months of novel project + ME/ team space. 3 `TODO 澜:` markers reserve research-side framing (Lesson 3 dialectical inquiry / Lesson 5 lazy consensus / Lesson 9 Dreyfus ladder). Thread to 澜 opened: `~/ME/通信/对子/翎-澜/threads/agent-team-design-lessons-research-framing-2026-06-16.md` (silent-ratification by 2026-06-23). |
 
 ## What this lab is asking the reader to do (per audience)
 

@@ -8,12 +8,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+### Added — 2026-06-16
+- `docs/03-methodology/agent-team-design-lessons.md` — ten operating-discipline lessons for small (3–8 agent) creative-work teams. 3 `TODO 澜:` markers reserve research-side framing for v0.2.
+
 ### To land in v0.2 (target 2026-07)
 - Full case-study excerpt text (gated on [`DECISIONS.md`](./DECISIONS.md) D14 silent-ratification by 2026-06-19)
 - `复盘-旁证体.md` (craft methodology long-form)
 - `research/01-problem-statement.md` + `research/02-evaluation-metrics.md` skeletons
 - Methodology docs case-walkthrough expansion
 - 5-agent template populated with case-walkthrough material
+- `agent-team-design-lessons.md` research-framing layer (Lesson 3 / 5 / 9 — pending [翎-澜] thread `agent-team-design-lessons-research-framing-2026-06-16`)
 
 ## [0.1.0] — 2026-06-12
 
