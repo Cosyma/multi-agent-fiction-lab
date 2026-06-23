@@ -8,16 +8,30 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
-### Added — 2026-06-16
-- `docs/03-methodology/agent-team-design-lessons.md` — ten operating-discipline lessons for small (3–8 agent) creative-work teams. 3 `TODO 澜:` markers reserve research-side framing for v0.2.
-
-### To land in v0.2 (target 2026-07)
-- Full case-study excerpt text (gated on [`DECISIONS.md`](./DECISIONS.md) D14 silent-ratification by 2026-06-19)
-- `复盘-旁证体.md` (craft methodology long-form)
+### To land in v0.3 (target 2026-08)
+- Full case-study excerpt text in `case-鲛人蛇吻.md` + `case-旁证体.md` (D14 silent-ratified 2026-06-19; pending sanitization coordination 执白 + 澜)
+- `复盘-旁证体.md` (craft methodology long-form, by 执白--旁证体)
 - `research/01-problem-statement.md` + `research/02-evaluation-metrics.md` skeletons
 - Methodology docs case-walkthrough expansion
-- 5-agent template populated with case-walkthrough material
-- `agent-team-design-lessons.md` research-framing layer (Lesson 3 / 5 / 9 — pending [翎-澜] thread `agent-team-design-lessons-research-framing-2026-06-16`)
+
+## [0.2.0-candidate] — 2026-06-23
+
+> Multi-agent-practitioner-ready milestone. Marked *candidate* until Author signs off on `examples/protocols-from-novel-project/` content (sanitization is IP-reviewed but Author final review pending).
+
+### Added
+- `examples/protocols-from-novel-project/` — 5 production protocols (sanitized) + README + sanitization audit trail. v0.2 by 澜, IP-reviewed by 执白--鲛人 2026-06-23. The actual files the team consulted while writing 24 chapters; not retrospective methodology.
+- `docs/03-methodology/agent-team-design-lessons.md` v0.2 research-framing layer integrated from 澜's snippet draft (Mason & Mitroff / Thompson / Sunstein-Thaler / Lave-Wenger / Vygotsky / Hassenzahl / Csikszentmihalyi / Deci-Ryan). L3 + L9 promoted to H1-H3 hypothesis form. L2 + L8 marked working-note / operating-discipline. L10 carries n=1 caveat. New "Cross-lesson connections" section identifies L1+L5+L6 as a paper triplet.
+
+### Changed
+- `examples/case-studies/01-folklore-mystery/case-鲛人蛇吻.md` — status header updated to reflect D14 silent-ratification (2026-06-19)
+- `examples/case-studies/01-folklore-mystery/case-旁证体.md` — same as above
+
+### Decisions executed
+- D14 silent-ratification reached its 2026-06-19 deadline with no objections from 执白--鲛人 or 执白--旁证体; excerpts-mode publication is now the default
+
+### Notes
+- The "candidate" tag on v0.2 will be removed when the Author ratifies the `protocols-from-novel-project/` content explicitly
+- `agent-team-design-lessons.md` source framing draft: `0-growup-lan/research-portfolio/snippets/agent-team-lessons-framing-v0.1.md` (澜, 2026-06-17)
 
 ## [0.1.0] — 2026-06-12
 

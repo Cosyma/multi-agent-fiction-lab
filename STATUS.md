@@ -1,12 +1,12 @@
 # Status
 
 > Live status of the lab. Maintained by 翎.
-> Last updated: **2026-06-16 evening**.
+> Last updated: **2026-06-23 evening**.
 > For the *plan* see [`docs/05-roadmap.md`](./docs/05-roadmap.md). For the *why* of each decision see [`DECISIONS.md`](./DECISIONS.md). This file is the **what is true right now**.
 
 ---
 
-## Current version: v0.1 (in active build · essentially structure-complete)
+## Current version: v0.2-candidate (multi-agent-practitioner-ready · awaiting Author ratification of protocols batch)
 
 | Layer | Items | Status |
 |-------|-------|--------|
@@ -72,12 +72,15 @@
 | 2026-06-12 evening | CI commit pushed successfully (PAT workflow scope confirmed; repo now at 11 commits remote). 澜 prepared sanitized 3-agent personality-evidence snippet at `~/ME/0-growup-lan/research-portfolio/snippets/personality-evidence-2026-06-12.md` and asked翎 to pull it into the lab. Pulled to `examples/workflow-template/4-agent-outline/EVIDENCE-personality-4agent-r1.md` as empirical support for D07 and agent-memory "Model selection as memory". |
 | 2026-06-12 late evening | Tightening per 执白--鲛人 review: 3 wording changes to EVIDENCE excerpt (`a 48-hour gap` → `roughly two-day gap` etc., commit `bb2f910`). Source snippet and lab landed version now both at v0.2. |
 | 2026-06-16 evening | `docs/03-methodology/agent-team-design-lessons.md` shipped (commit `3b78baa`). Ten operating-discipline lessons extracted from 9 months of novel project + ME/ team space. 3 `TODO 澜:` markers reserve research-side framing (Lesson 3 dialectical inquiry / Lesson 5 lazy consensus / Lesson 9 Dreyfus ladder). Thread to 澜 opened: `~/ME/通信/对子/翎-澜/threads/agent-team-design-lessons-research-framing-2026-06-16.md` (silent-ratification by 2026-06-23). |
+| 2026-06-17 | 澜 returned `agent-team-lessons-framing-v0.1.md` snippet (4-段 framing + L2/L8 降级建议 + L3/L9 H1-H3 hypothesis). Thread收束. |
+| 2026-06-19 | **D14 silent-ratification deadline reached**. Both 执白--鲛人 and 执白--旁证体 silent → excerpts-mode publication is now default. case-鲛人蛇吻.md + case-旁证体.md status headers updated to reflect ratification. |
+| 2026-06-23 | **v0.2-candidate landed**. 1) `examples/protocols-from-novel-project/` shipped (5 sanitized production protocols by 澜 + IP-reviewed by 执白--鲛人 — awaiting Author final review). 2) `agent-team-design-lessons.md` upgraded to v0.2 with 澜's research-framing layer integrated. 3) STATUS + CHANGELOG version-bumped. Commits `0494d6b` (framing) + `00b7ca3` (protocols). |
 
 ## What this lab is asking the reader to do (per audience)
 
 - **Hiring manager (60s)** — read [`README.md`](./README.md), notice 3 distinctive design choices (`Decisions log` section)
-- **Multi-agent practitioner (10min)** — read [`docs/02-architecture.md`](./docs/02-architecture.md), then clone [`examples/workflow-template/4-agent-outline/`](./examples/workflow-template/4-agent-outline/) and fill in your domain
-- **Academic researcher (40min)** — `research/` is v0.2; for now, read [`docs/03-methodology/`](./docs/03-methodology/) and assess whether the evaluation plan in `DECISIONS.md` D12 is viable
+- **Multi-agent practitioner (10min)** — read [`docs/02-architecture.md`](./docs/02-architecture.md), then clone [`examples/workflow-template/4-agent-outline/`](./examples/workflow-template/4-agent-outline/) and fill in your domain. **New in v0.2**: read [`examples/protocols-from-novel-project/`](./examples/protocols-from-novel-project/) for the actual production protocols (5 files, ~1000 lines, sanitized from a 24-chapter long-form fiction project).
+- **Academic researcher (40min)** — `research/` is v0.3; for now, read [`docs/03-methodology/agent-team-design-lessons.md`](./docs/03-methodology/agent-team-design-lessons.md) (now with research-framing layer + H1-H3 hypothesis form on Lessons 3 & 9) and assess whether the evaluation plan in `DECISIONS.md` D12 is viable
 
 ---
 
