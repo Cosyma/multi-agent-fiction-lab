@@ -36,6 +36,8 @@ See [`agent-consistency.md`](./agent-consistency.md) for the SOUL.md schema this
 
 ## Lesson 2 — Premature archive is the dominant anti-pattern
 
+*Working note — single-incident lesson, not a methodology claim. Retained here because the asymmetric-cost structure (silent → archive is fast; recover from wrongful archive is slow) generalizes even if the specific four-step rollback does not.*
+
 **Pattern.** When an agent goes quiet for a few hours, do not archive it. Check whether the agent has work in a different surface first. Archive is destructive; silence is ambiguous.
 
 **Antithesis (textbook).** Most agent-lifecycle docs treat inactive agents as garbage-collectable. Idle = retire.
@@ -62,7 +64,13 @@ The generalization: pairing by complementarity creates handoff; pairing by tensi
 
 **When applicable.** When the artifact has two commitments that *genuinely conflict*. Not applicable when the commitments are merely different (then complementary pairing is correct).
 
-> TODO 澜: this lesson has a possible HCI / organizational-science precedent in the literature on "productive conflict" and dialectical inquiry (Mason & Mitroff, 1981) — worth a citation if we want this doc to land as research material.
+**Research framing.** This pattern has structural precedent in the management literature on **dialectical inquiry** (Mason & Mitroff, 1981), where a counterposed thesis–antithesis pair is used to surface concealed assumptions in strategic planning. The tension-pair design described here differs in a load-bearing way: dialectical inquiry assumes both positions are defensibly plausible and seeks a synthesis; the agent tension pair assumes the two commitments are **non-fungible by design** — neither agent is supposed to win. This non-fungibility is the contribution.
+
+**Hypothesis form.**
+
+- **H1 (claim)**: Tension-paired agents (non-fungible commitments) produce more stable cross-document quality standards than role-complementary agent pairs over N sessions.
+- **H2 (mechanism)**: Each agent's refusal-on-own-dimension acts as a continuous check on the other; complementary pairs lack this mutual-check because their dimensions do not overlap.
+- **H3 (boundary condition)**: This pattern holds only when both commitments are genuinely non-fungible (cannot be merged into one). When the commitments are merely "different aspects," tension pairing collapses into complementary pairing.
 
 ---
 
@@ -94,7 +102,7 @@ This works because the author trusts the proposer's judgment in the default dire
 
 **When applicable.** Trusted-defaults decisions on non-reversible-but-low-stakes choices. Not applicable when reversal cost is high.
 
-> TODO 澜: this pattern has prior art in legislative practice ("hotline approval") and in some open-source governance (lazy consensus, Apache-style). Worth a few citations if we lift this to research-material level.
+**Research framing.** This pattern has three intersecting anchors in prior art. From **organization theory**, Thompson's *Organizations in Action* (1967) introduces **sequential interdependence** with coordination cost — the deadline trick functions as a sequential pre-commitment that bounds coordinator wait. From **choice architecture**, Sunstein & Thaler (2008) frame opt-out defaults as ways to preserve agency while reducing decision friction — silent-ratification is an opt-out default at the agent–coordinator interface. From **open-source governance**, Apache **lazy consensus** has used this exact deadline mechanic for two decades. Together: the pattern is not novel as procedure but is novel as **a human–AI team coordination primitive**.
 
 ---
 
@@ -140,6 +148,8 @@ Tradeoff: file proliferation. Mitigation: thread file names use topic, not times
 
 ## Lesson 8 — "Manage your own creations, not others' files"
 
+*Operating discipline, not methodology. This is a file-system-safety rule that belongs to the team's plumbing layer; retained in this doc for completeness but may be lifted to a dedicated `04-operations/file-system-boundary.md` in a later version.*
+
 **Pattern.** Each agent has a boundary written into its operating rules: *you manage files you created; you do not edit / move / archive files created by other agents or by the human, even when they sit in 'your' directory.*
 
 **Antithesis (textbook).** Most agent file-tool defaults grant write access by path. If the path is in scope, the agent edits.
@@ -169,7 +179,13 @@ The graduations are explicit: the senior writes a short handover document at eac
 
 **When applicable.** Whenever a senior agent's judgment is the actual quality bar and a junior agent must absorb it. Not applicable for swappable workers.
 
-> TODO 澜 (revised 2026-06-16 per thread review): Dreyfus' 5-stage model does *not* fit (the 4-stage ladder lacks Dreyfus' advanced-beginner / proficient distinction). Better anchor: **Lave & Wenger (1991) Legitimate Peripheral Participation** — the four stages are an LPP instance — plus **Vygotsky's Zone of Proximal Development** to explain why stage-2 co-execution produces the steepest skill gain. v0.2 will replace this TODO with the LPP + ZPD framing.
+**Research framing.** The four-stage ladder maps loosely to **legitimate peripheral participation** (Lave & Wenger, 1991): newcomers move from observation to peripheral co-execution to autonomous practice as they internalize the senior practitioner's standards. The Lave–Wenger frame fits better than Dreyfus (1986) skill-acquisition for this case because our stages are not aligned with an internal cognitive scale (novice → expert) but with **task-ownership transitions** — a social, not psychological, structure. The 90% vs 70% output quality differential noted above is consistent with Vygotsky's **zone of proximal development**: stage 2 chaperoned work scaffolds capacity that stage 1 observation alone could not yield.
+
+**Hypothesis form.**
+
+- **H1 (claim)**: Junior agents that pass through the 4-stage ladder produce ≥90% acceptable output, vs. ≤70% for junior agents dropped directly into stage 3 / 4.
+- **H2 (mechanism)**: Stage 2 chaperoned work transmits **tacit standards** the senior cannot articulate explicitly in the handover doc; this transmission requires shared task context, not just written guidelines.
+- **H3 (boundary condition)**: This pattern requires the senior agent to **actually post-review** during stage 2–3 transitions. Without sustained review, the ladder collapses to autonomous practice and quality regresses to the no-ladder baseline.
 
 ---
 
@@ -187,7 +203,28 @@ This is not a productivity trick — it is **collaborator-engagement design**. I
 
 **When applicable.** Every long-running team. Especially relevant when the human is the *sole consumer* of the team's work (vs. external stakeholders providing the engagement pull).
 
-> TODO 澜: there is HCI literature on collaborator engagement (Hassenzahl on hedonic vs. pragmatic UX; Csikszentmihalyi on flow channel) that frames this. Citations worth adding if this lesson lands as research material.
+**Research framing.** This pattern intersects three HCI / motivation lineages. **Hassenzahl** (hedonic vs. pragmatic product quality) distinguishes between use-value and engagement-value — the team here is optimizing for the latter. **Csikszentmihalyi's flow channel** explains why misaligned tempo (too fast / too slow against the human's intrinsic interest curve) collapses engagement. **Deci & Ryan's Self-Determination Theory** offers the most operational frame: the three SDT pillars (autonomy, competence, relatedness) map directly onto the kinds of signals observed here — visible incremental landing (autonomy + competence), team trust in the human's mode-switching (relatedness). "The team that keeps the human awake" is, in SDT terms, the team that keeps the SDT pillars in alignment.
+
+**Open empirical question, n=1.** The "excitement signal" framing here is grounded in a single author's behavior over one production stretch. Whether the signal types (commit history / clean demo / tight checklist) generalize across collaborators — and whether the SDT mapping holds quantitatively — is untested. Treat as hypothesis, not finding.
+
+---
+
+## Cross-lesson connections
+
+Three lessons in this doc — **L1 (identity-not-task SOULs)**, **L5 (silent ratification)**, and **L6 (human-as-messenger)** — share a deeper common structure worth naming explicitly.
+
+All three trade *throughput* for *agency preservation* under coordination cost:
+
+- **L1** preserves the *agent's* agency to disagree (identity → refusal authority)
+- **L5** preserves the *agent's* agency to object (default-proceed, never default-accept)
+- **L6** preserves the *human's* agency to taste (router-by-design, not router-as-bottleneck)
+
+Read together they constitute a small theory of **human–AI team coordination as choice architecture**: each design choice is an opt-out / refusal interface rather than a throughput optimization. Two short papers could extract from this set:
+
+1. *Coordination cost in human–AI teams: silent ratification + human-as-messenger* — L5 + L6 paired, CSCW position paper material.
+2. *Identity-not-task SOULs: a role definition pattern for stable multi-agent teams* — L1 standalone, IUI position paper material.
+
+Both are tracked as follow-on work in [`../05-roadmap.md`](../05-roadmap.md).
 
 ---
 
@@ -220,4 +257,4 @@ These are tracked in the lab's [`../05-roadmap.md`](../05-roadmap.md) as open me
 
 → Related: [`agent-character-tension.md`](./agent-character-tension.md) (Lesson 3 deep dive) · [`agent-consistency.md`](./agent-consistency.md) (SOUL.md schema for Lesson 1) · [`agent-handoff.md`](./agent-handoff.md) (state transfer across sessions) · [`../05-roadmap.md`](../05-roadmap.md) (open questions)
 
-*Draft v0.1 · 2026-06-16 · author's working notes, not a finished framework. TODO markers point to spots where research-side framing (澜) would deepen the claim.*
+*v0.2 · 2026-06-23 · research-framing layer integrated (Mason & Mitroff / Thompson / Sunstein-Thaler / Lave-Wenger / Vygotsky / Hassenzahl / Csikszentmihalyi / Deci-Ryan); L3 + L9 promoted to hypothesis form; L2 + L8 marked as working note / operating discipline; L10 carries an explicit n=1 caveat. Source framing draft: `0-growup-lan/research-portfolio/snippets/agent-team-lessons-framing-v0.1.md` (澜, 2026-06-17).*
