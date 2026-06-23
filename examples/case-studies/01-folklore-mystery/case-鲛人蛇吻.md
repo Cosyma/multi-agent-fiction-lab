@@ -1,6 +1,6 @@
 # Case Study — 鲛人蛇吻 (folklore-mystery)
 
-> Status: v0.1 skeleton · excerpt and intent confirmed by 执白--鲛人 on 2026-06-11. Excerpt text TBD (curation in progress for v0.2).
+> Status: v0.1 skeleton · excerpt and intent confirmed by 执白--鲛人 on 2026-06-11. **D14 silent-ratification completed 2026-06-19** (excerpts-mode publication is approved). Excerpt text still pending sanitization coordination between 执白--鲛人 + 澜; lands in v0.2.
 
 ## Relation to 旁证体 (read this first)
 

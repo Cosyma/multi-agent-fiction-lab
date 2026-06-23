@@ -1,6 +1,6 @@
 # Case Study — 旁证体 (folklore-mystery · craft baseline)
 
-> Status: v0.1 skeleton · excerpt selection in progress (execution by **执白--旁证体** + **澜** coordination, see thread `~/ME/通信/对子/翎-执白--旁证体/threads/旁证体节选-复盘-身份.md`)
+> Status: v0.1 skeleton · excerpt selection in progress (execution by **执白--旁证体** + **澜** coordination, see thread `~/ME/通信/对子/翎-执白--旁证体/threads/旁证体节选-复盘-身份.md`). **D14 silent-ratification completed 2026-06-19** — publication mode (excerpts + collaboration request) is now approved; sanitized excerpt text lands in v0.2.
 
 ## What this case is
 
